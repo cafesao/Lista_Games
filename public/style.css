@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Hind+Siliguri|Righteous|Ubuntu+Condensed&display=swap');
+
+body {
+    display: block;
+    background-color: rgb(84, 231, 231);
+    text-align: center;
+}
+
+div#interface{
+    margin: 0 auto;
+    height: auto;
+    width: 700px;
+    background-color: rgb(166, 235, 145);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 28pt;
+    color: yellow;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.596);
+}
+
+h2 {
+    font-family: 'Hepta Slab', serif;
+    font-size: 21pt;
+    color: rgb(57, 57, 252);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.233);
+}
+
+p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 19pt;
+    color: rgb(202, 59, 59);
+}
+
+pre {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18pt;
+    color: rgb(59, 131, 127);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+}
+
+input {
+    width: 250px;
+    margin-top: 10px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+

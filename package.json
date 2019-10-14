@@ -2,10 +2,10 @@
   "name": "games_pesquisa",
   "version": "1.0.0",
   "description": "Front e Back-End para pesquisar e adicionar games.",
-  "main": "index.js",
+  "main": "",
   "repository": "https://github.com/cafesao/Games_Pesquisa.git",
   "author": "cafesao <gabriel.diasdutra2@gmail.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
@@ -17,7 +17,7 @@
     "require-dir": "^1.2.0"
   },
   "scripts": {
-    "dev" : "webpack-dev-server --mode=development",
+    "dev": "webpack-dev-server --mode=development",
     "server": "nodemon ./server/js/api.js"
   },
   "devDependencies": {

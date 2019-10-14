@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista de Games</title>
+</head>
+<body>
+    <div id="interface">
+        <div id="buscar">
+            <h1>Buscar nome de jogos</h1>
+            <input type="search" id="nomePesquisarInput" placeholder="Nome do Jogo" autofocus>
+            <button type="submit" id="pesquisar">Pesquisar</button>
+        </div>
+        <div id="resultado_buscar"></div>
+    
+        <div id="adicionar">
+            <h1>Para adicionar um jogo informe os campos abaixo</h1>
+            <input type="text" id="nomeInput" placeholder="Nome do Jogo">
+            <br>
+            <input type="text" id="temaInput" placeholder="Tema do Jogo">
+            <br>
+            <input type="number" id="anoInput" placeholder="Ano de Lançamento">
+            <br>
+            <input type="text" id="empresaInput" placeholder="Nome da Empresa">
+            <br>
+            <input type="text" id="engineInput" placeholder="Nome da Engine">
+            <br>
+            <textarea id="sobreInput" cols="40" rows="15" wrap="hard" placeholder="Insira um sobre o Jogo"></textarea>
+            <br>
+            <button type="submit" id="adicionar">Adicionar</button>
+        </div>
+        <div id="resultado_adicionar"></div>
+    </div>
+    
+    <script src="bundle.js"></script>
+</body>
+</html>
