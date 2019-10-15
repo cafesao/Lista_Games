@@ -1,5 +1,7 @@
+//Importando Mongoose
 const mongoose = require('mongoose')
 
+//Modelo
 const gamesSchema = new mongoose.Schema({
     nome: {
         type: String,
@@ -35,4 +37,5 @@ const gamesSchema = new mongoose.Schema({
     }
 })
 
+//Adicionando nome ao modelo
 mongoose.model('Games', gamesSchema)
