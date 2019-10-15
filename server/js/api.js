@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const require_dir = require('require-dir')
 
-// Inicia o App
+// Iniciando o App
 const app = express()
 
 //Diz para o App usar JSON no express
@@ -21,8 +21,6 @@ require_dir('../models/')
 
 //Ativa o App a usar as rotas do routes
 app.use('/api', require('../routes/routes'))
-
-
 
 //Liga o App a porta 3001, que e a porta onde os outros irão fazer a requisição
 app.listen(3001)
