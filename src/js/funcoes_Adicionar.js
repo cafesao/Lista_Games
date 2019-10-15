@@ -1,8 +1,12 @@
+//Importando
 import axios from 'axios'
 export { prepararObj }
 
+//Variaveis
 var div = document.querySelector('div#resultado_adicionar')
 
+
+//Funções
 async function Adicionar(Game) {
     try{
         carregando(true)
