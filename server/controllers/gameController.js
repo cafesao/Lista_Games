@@ -1,6 +1,8 @@
+//Importando
 const moongose = require('mongoose')
 const Games = moongose.model('Games')
 
+//Exportando
 module.exports = {
 
     async coletarTudo(req, res) {
