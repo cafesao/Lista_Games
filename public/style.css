@@ -20,6 +20,15 @@ div#interface{
     padding: 10px;
 }
 
+div#divJogo{
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 h1 {
     font-family: 'Righteous', cursive;
     font-size: 28pt;
@@ -37,7 +46,7 @@ h2 {
 p {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 19pt;
-    color: rgb(202, 59, 59);
+    color: rgb(43, 134, 25);
 }
 
 pre {
@@ -49,6 +58,10 @@ pre {
 
 input {
     width: 250px;
+    margin-top: 10px;
+}
+
+textarea{
     margin-top: 10px;
 }
 
