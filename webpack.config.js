@@ -1,3 +1,5 @@
+//Module
+
 module.exports = {
     entry: ['babel-polyfill', './src/js/main.js'],
     output: {
