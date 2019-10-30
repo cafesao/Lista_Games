@@ -14,10 +14,6 @@ nomePesquisar.addEventListener("keydown", (e) => {
     }
 })
 
-function limparPesquisa() {
-    nomePesquisar.value = ''
-}
-
 function Pesquisar() {
     if(nomePesquisar.value.length == 0){
         alert('[ERRO] Por favor, insira o campo de pesquisa')
@@ -26,6 +22,10 @@ function Pesquisar() {
         PesquisarGame(nomePesquisar.value)
         limparPesquisa()
     }
+}
+
+function limparPesquisa() {
+    nomePesquisar.value = ''
 }
 
 //ADICIONAR
